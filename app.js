@@ -15,7 +15,7 @@ function atualizaSaudacao() {
         imgFundo = "url(diaFundo.jpg)";
         imgIcone = "Bom Dia.png";
         frasesDoMomento = frasesManha;
-    } else if (hora >= 12 && hora < 23) {
+    } else if (hora >= 12 && hora < 17:59) {
         msgSaudacao = 'Boa tarde';
         imgFundo = "url(tardeFundo.jpg)";
         imgIcone = "Boa Tarde.png";
@@ -40,3 +40,4 @@ if ('serviceWorker' in navigator) {
     .then(() => console.log("Service Worker registrado"))
     .catch(err => console.log("Erro no Service Worker:", err));
 }
+
